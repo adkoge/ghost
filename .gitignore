@@ -1,0 +1,4 @@
+*.log
+node_modules/
+built/
+dist/ # If you have a build process
