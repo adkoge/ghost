@@ -36,7 +36,7 @@
         {{#unless no_image}}
         <figure class="single-media kg-width-{{width}}">
             <div class="u-placeholder horizontal" style="max-width: 600px; margin: 0 auto;">
-                <img class="u-object-fit" style="width: 100%; height: auto; object-fit: cover;" srcset="{{> srcset}}"
+                <img class="u-object-fit" style="width: 100%; object-fit: contain;" srcset="{{> srcset}}"
                     sizes="600px" src="{{img_url feature_image size=" l"}}"
                     alt="{{#if feature_image_alt}}{{feature_image_alt}}{{else}}{{title}}{{/if}}">
             </div>
